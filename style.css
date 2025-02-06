@@ -65,6 +65,7 @@ main > .content > .user > .subname{
 main > .content > .catchphrase{
      font-size: 20px;
      font-weight: 600;
+     z-index: 2;
 }
 
 
@@ -107,10 +108,9 @@ main > .content.five{
 }
 
 main > .content .quo-mark{
-     display: grid;
+     position: absolute;
      z-index: 1;
-     grid-row: 1/1;
-     grid-column: 2/2;
-     justify-self: center; 
-     
+     right: 10px;
+     top: 10px;
+
 }
