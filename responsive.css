@@ -1,0 +1,76 @@
+@media (max-width: 968px) {
+     body{
+          background-color: hsl(210, 46%, 95%);
+     }
+
+     main{
+          display: flex;
+          flex-direction: column;
+          width: 90vw;
+          justify-content: center;
+          margin-left: 0;
+          margin-top: 0;
+          top: 0;
+     }
+
+     main .content{
+          padding: 30px;
+          border-radius: 10px;
+          box-shadow: 5px 5px 10px hsl(229, 6%, 66%);
+     }
+
+     main > .content > .user {
+          display: grid;
+          grid-template-columns: 1fr 3fr;
+          grid-template-rows: 32px 32px;
+          width: fit-content;
+          z-index: 2;
+     }
+     
+
+     main > .content > .user > .profile-pic{
+          border-radius: 100%;
+          border: 5px solid hsl(214, 30%, 9%);
+          overflow: hidden;
+          width: 56px;
+          height: 56px;
+          grid-area: 1/1/2/1;
+          
+          }
+
+     main > .content > .user > .username{
+           font-size: 14px;
+           margin-top: 5px;
+           font-weight: 500;
+           align-content: center;
+           margin-left: 10px;
+           z-index: 2;
+      }
+              
+     main > .content > .user > .subname{
+       grid-area: 2/2/2/2;
+       align-items: center;
+       opacity: 0,5;
+       font-size: 12px;
+       margin-left: 10px;
+       z-index: 2;
+     }
+
+     main > .content .quo-mark{
+          position: absolute;
+          z-index: 1;
+          right: 10px;
+          top: 10px;
+          
+         
+
+          
+     }
+              
+     
+
+
+
+
+
+}
